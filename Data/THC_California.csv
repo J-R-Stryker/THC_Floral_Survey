@@ -1,0 +1,71 @@
+﻿Garden,Replicate,Species,accession,Time,Ambient CO2,Ambient Temp,Ambient Humidity,CO2,Temp,Humidity,Camera ambient temp,Camera temp,Weather,sun/shade,Notes,Flower color,Floral Morphology
+Julie,1,Batchlor button,,10:25,442,31.03,34.29,551,32.49,45.13,26.5,34.2,Sunny,Sun,by sidewalk,Blue,
+Julie,1,Daisy,,10:25,391,32.46,26.50,487,39.80,35.79,27,40.8,Sunny,Sun,by sidewalk,Yellow,
+Julie,1,nasturtum,,10:25,431,39.01,24.48,514,37.72,40.70,27.4,27.4,Sunny,Shade,by sidewalk,Orange,
+Julie,1,Batchlor button,,15:00,393,47.39,15.09,385,47.73,20.66,32.2,32.2,Sunny,Sun,by sidewalk,Blue,
+Julie,1,Daisy,,15:00,424,46.53,12.85,576,47.38,33.87,29.1,41.2,Sunny,Sun,by sidewalk,Yellow,
+Julie,1,nasturtum,,15:00,396,45.94,17.27,455,45.65,16.27,28.6,27.9,Sunny,Shade,by sidewalk,Orange,
+UCB,1,Silene lacinita ssp. Californica,2020.0051,1:55,326,36.83,34.13,375,37.75,30.92,,,Sunny,Sun,,Pink,
+UCB,1,Romneya coulteri,50.1640,1:59,404,38.49,29.77,467,39.76,51.73,,,Sunny,Sun,,White,
+UCB,2,Romneya coulteri,50.1640,1:59,404,38.49,29.77,411,39.45,40.01,,,Sunny,Sun,,White,
+UCB,3,Romneya coulteri,50.1640,1:59,404,38.49,29.77,738,49.56,48.38,,,Sunny,Sun,,White,
+UCB,4,Romneya coulteri,50.1640,1:59,404,38.49,29.77,362,40.99,38.89,,,Sunny,Sun,,White,
+UCB,5,Romneya coulteri,50.1640,1:59,404,38.49,29.77,372,41.50,32.44,,,Sunny,Sun,Older flower,White,
+UCB,6,Romneya coulteri,50.1640,1:59,404,38.49,29.77,488,41.09,31.26,,,Sunny,Sun,,White,
+UCB,1,Philodelphus lewisii ssp. Californicus cv. Goose Creek,83.0226,2:15,378,37.25,29.51,308,37.14,34.30,,,Sunny,Sun,,White,
+UCB,2,Philodelphus lewisii ssp. Californicus cv. Goose Creek,83.0226,2:15,378,37.25,29.51,432,36.03,41.56,,,Sunny,Shade,Among many bushes,White,Umbel
+UCB,3,Philodelphus lewisii ssp. Californicus cv. Goose Creek,83.0226,2:15,378,37.25,29.51,347,35.95,38.67,,,Sunny,Shade,Among many bushes,White,Umbel
+UCB,4,Philodelphus lewisii ssp. Californicus cv. Goose Creek,83.0226,2:15,378,37.25,29.51,328,35.27,35.71,,,Sunny,Shade,Among many bushes,White,Umbel
+UCB,5,Philodelphus lewisii ssp. Californicus cv. Goose Creek,83.0226,2:15,378,37.25,29.51,354,35.49,42.48,,,Sunny,Shade,Among many bushes,White,Umbel
+UCB,6,Philodelphus lewisii ssp. Californicus cv. Goose Creek,83.0226,2:15,378,37.25,29.51,332,34.89,42.21,,,Sunny,Shade,Among many bushes,White,Umbel
+UCB,1,Rhododendron griersonianum subsection Griersoniana,32.1955,2:51,238,30.75,39.94,353,30.81,41.57,,,Sunny,Shade,Shady mulch,Pink,
+UCB,2,Rhododendron griersonianum subsection Griersoniana,32.1955,2:51,238,30.75,39.94,224,30.52,48.13,,,Sunny,Shade,Shady mulch,Pink,
+UCB,3,Rhododendron griersonianum subsection Griersoniana,32.1955,2:51,238,30.75,39.94,168,30.15,45.05,,,Sunny,Shade,Shady mulch,Pink,
+UCB,4,Rhododendron griersonianum subsection Griersoniana,32.1955,2:51,238,30.75,39.94,296,30.47,43.54,,,Sunny,Shade,Shady mulch,Pink,
+UCB,5,Rhododendron griersonianum subsection Griersoniana,32.1955,2:51,238,30.75,39.94,396,30.41,44.26,,,Sunny,Shade,Shady mulch,Pink,
+UCB,6,Rhododendron griersonianum subsection Griersoniana,32.1955,2:51,238,30.75,39.94,226,30.58,44.07,,,Sunny,Shade,Shady mulch,Pink,
+UCB,1,Rhododendron Kaempxeri section tsutsusi,2002.0139,3:05,257,31.65,42.68,227,32.69,41.41,,,Sunny,Mixed,Dappled sun/shade,Pink,
+UCB,2,Rhododendron Kaempxeri section tsutsusi,2002.0139,3:05,257,31.65,42.68,188,34.41,63.79,,,Sunny,Mixed,Dappled sun/shade,Pink,
+UCB,1,Arisaema tortussum,89.1984,3:16,235,30.34,44.19,255,30.37,53.01,,,Sunny,Shade,Shady mulch,Green,
+UCB,2,Arisaema tortussum,89.1984,3:16,235,30.34,44.19,236,29.92,46.71,,,Sunny,Shade,Shady mulch,Green,
+UCB,3,Arisaema tortussum,89.1984,3:16,235,30.34,44.19,255,29.71,49.32,,,Sunny,Shade,Shady mulch,Green,
+UCB,4,Arisaema tortussum,89.1984,3:16,235,30.34,44.19,258,29.52,51.07,,,Sunny,Shade,Shady mulch,Green,
+UCB,1,Cornus capitata,74.1062,3:20,222,30.73,41.85,212,30.81,49.35,,,Sunny,Shade,by open field,White/green,
+UCB,2,Cornus capitata,74.1062,3:20,222,30.73,41.85,223,32.41,42.94,,,Sunny,Shade,by open field,White/green,
+UCB,3,Cornus capitata,74.1062,3:20,222,30.73,41.85,230,31.93,38.49,,,Sunny,Shade,by open field,White/green,
+UCB,4,Cornus capitata,74.1062,3:20,222,30.73,41.85,209,31.66,47.73,,,Sunny,Shade,by open field,White/green,
+UCB,5,Cornus capitata,74.1062,3:20,222,30.73,41.85,187,30.88,59.99,,,Sunny,Shade,by open field,White/green,
+UCB,1,Coreopsis tinctoria,86.0179,3:30,200,45.57,20.12,420,44.48,20.91,,,Sunny,Sun,,Yellow,
+UCB,2,Coreopsis tinctoria,86.0179,3:30,200,45.57,20.12,443,43.44,,,,Sunny,Sun,,Yellow,
+UCB,3,Coreopsis tinctoria,86.0179,3:30,200,45.57,20.12,446,44.67,24.50,,,Sunny,Sun,,Yellow,
+UCB,4,Coreopsis tinctoria,86.0179,3:30,200,45.57,20.12,456,45.78,27.26,,,Sunny,Sun,,Yellow,
+UCB,5,Coreopsis tinctoria,86.0179,3:30,200,45.57,20.12,472,45.38,26.53,,,Sunny,Sun,,Yellow,
+UCB,6,Coreopsis tinctoria,86.0179,3:30,200,45.57,20.12,448,44.76,24.72,,,Sunny,Sun,,Yellow,
+UCB,7,Coreopsis tinctoria,86.0179,3:30,200,45.57,20.12,490,44.39,26.81,,,Sunny,Sun,,Yellow,
+UCB,1,Lillium lancifolium,80.1480,3:50,575,37.14,28.56,280,37.76,46.24,,,Sunny,Sun,,Orange,
+UCB,2,Lillium lancifolium,80.1480,3:50,575,37.14,28.56,738,44.27,28.25,,,Sunny,Sun,,Orange,
+UCB,3,Lillium lancifolium,80.1480,3:50,575,37.14,28.56,298,41.88,25.33,,,Sunny,Sun,,Orange,
+UCB,4,Lillium lancifolium,80.1480,3:50,575,37.14,28.56,218,43.85,25.94,,,Sunny,Sun,,Orange,
+MAD,1,Canna spp.,0276-22,1:00,450,36.23,27.08,463,36.32,28.24,,,Sunny,Shade,"Recently watered, soild wet",Red,"Inflorescence, 4 open flowers"
+MAD,2,Canna spp.,0276-22,1:00,450,36.23,27.08,453,36.60,27.48,,,Sunny,Shade,"Recently watered, soild wet",Red,"Inflorescence, 4 open flowers"
+MAD,3,Canna spp.,0276-22,1:00,450,36.23,27.08,465,40.28,31.74,,,Sunny,Mixed,"Recently watered, soild wet",Red,"Inflorescence, 4 open flowers"
+MAD,4,Canna spp.,0276-22,1:00,457,37.79,26.17,565,39.33,30.30,,,Sunny,Sun,"Recently watered, soild wet",Red,"Inflorescence, 4 open flowers"
+MAD,5,Canna spp.,0276-22,1:00,457,37.79,26.17,679,41.35,29.87,,,Sunny,Sun,"Recently watered, soild wet",Red,"Inflorescence, 4 open flowers"
+MAD,1,Rudbeckia nitida 'herbsonne',0172-07,1:20,431,37.34,22.04,471,35.56,33.63,,,Sunny,Sun,,Yellow,Single
+MAD,2,Rudbeckia nitida 'herbsonne',0172-07,1:20,431,37.34,22.04,455,35.64,32.60,,,Sunny,Sun,,Yellow,Single
+MAD,3,Rudbeckia nitida 'herbsonne',0172-07,1:20,431,37.34,22.04,457,36.30,32.00,,,Sunny,Sun,,Yellow,Single
+MAD,4,Rudbeckia nitida 'herbsonne',0172-07,1:20,431,37.34,22.04,456,36.25,27.32,,,Sunny,Sun,,Yellow,Single
+MAD,5,Rudbeckia nitida 'herbsonne',0172-07,1:20,431,37.34,22.04,44,36.87,29.02,,,Sunny,Sun,,Yellow,Single
+MAD,6,Rudbeckia nitida 'herbsonne',0172-07,1:20,431,37.34,22.04,482,36.60,29.67,,,Sunny,Sun,,Yellow,Single
+MAD,1,Rudbeckia nitida 'herbsonne',0172-07,1:30,539,37.96,24.36,599,36.64,34.79,,,Sunny,Shade,Different plant,Yellow,Single
+MAD,2,Rudbeckia nitida 'herbsonne',0172-07,1:30,539,37.96,24.36,435,37.00,35.43,,,Sunny,Shade,Different plant,Yellow,Single
+MAD,3,Rudbeckia nitida 'herbsonne',0172-07,1:30,539,37.96,24.36,453,36.37,30.80,,,Sunny,Shade,Different plant,Yellow,Single
+MAD,4,Rudbeckia nitida 'herbsonne',0172-07,1:30,539,37.96,24.36,508,36.00,36.75,,,Sunny,Shade,Different plant,Yellow,Single
+MAD,5,Rudbeckia nitida 'herbsonne',0172-07,1:30,539,37.96,24.36,508,36.40,28.64,,,Sunny,Shade,Different plant,Yellow,Single
+MAD,6,Rudbeckia nitida 'herbsonne',0172-07,1:30,539,37.96,24.36,499,36.25,33.71,,,Sunny,Shade,Different plant,Yellow,Single
+MAD,1,Gaziana rigens,0050-10,2:00,453,41.48,18.98,595,41.51,36.75,,,Sunny,Sun,Hot and dry,Yellow,Single
+MAD,2,Gaziana rigens,0050-10,2:00,453,41.48,18.98,427,44.80,31.54,,,Sunny,Sun,Hot and dry,Yellow,Single
+MAD,3,Gaziana rigens,0050-10,2:00,453,41.48,18.98,417,46.09,35.90,,,Sunny,Sun,Hot and dry,Yellow,Single
+MAD,4,Gaziana rigens,0050-10,2:00,453,41.48,18.98,377,47.42,27.17,,,Sunny,Sun,Hot and dry,Yellow,Single
+MAD,5,Gaziana rigens,0050-10,2:00,453,41.48,18.98,544,42.31,28.55,,,Sunny,Sun,Hot and dry,Yellow,Single
+MAD,6,Gaziana rigens,0050-10,2:00,453,41.48,18.98,445,46.52,18.77,,,Sunny,Sun,Hot and dry,Yellow,Single
