@@ -16,7 +16,124 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r cars}
+## read in the data 
+ library(RCurl)
+ library(readxl)
 
+  # The data is located on github and can be downloaded here. 
+  
+    
+    file1 <- "/Users/jadestryker/Library/CloudStorage/OneDrive-UniversityofGeorgia/Salzman Lab/Salzman Lab - Information/Jade Stryker/Git/THC_floral_survey/Data/Floral_Survey_25.4.4.xlsx"
+
+    THC_data <- read_xlsx(file1)
+  
+  #check the data loaded in 
+    head(THC_data)
+```
+
+In this data, we have ambient and floral temp, hum, and co2. We need to calculate the delta (difference from ambient) of those values and also get absolute humidity rather than relative.
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(dplyr)
+# Calculate Abs. Humidity (g/cm3)
+   ##need to calculate abs humidity from relative + temp(C), build a fcn to do so
+    
+     ##from package skgrange/threadr:
+        absolute_humidity <- function(air_temp, rh) {
+          # https://carnotcycle.wordpress.com/2012/08/04/how-to-convert-relative-humidity-to-absolute-humidity/
+          (6.112 * exp((17.67 * air_temp) / (air_temp + 243.5)) * rh * 2.1674) / 
+          (273.15 + air_temp)
+        }
+  
+  ##calculate abs hum and make new col:
+        THC_data$Abs_Hum <- absolute_humidity(THC_data$`Sample Temp`, THC_data$`Sample Humidity`)
+        THC_data$Abs_Hum_amb <- absolute_humidity(THC_data$`Ambient Temp`, THC_data$`Ambient Humidity`)
+        
+# Get the delta values for THC
+        
+THC_data_final <- THC_data %>%
+  group_by(Species, `Collection number`,`Individual number`, `Flower number`) %>% #Group by descriptive stats like species
+        summarise( # Get the mean value for all THC and THC_amb values
+          mean_temp = mean(`Sample Temp`, na.rm = TRUE),
+          mean_abs_hum = mean(`Sample Humidity`, na.rm = TRUE),
+          mean_co2 = mean(`Sample CO2`, na.rm = TRUE),
+          mean_temp_amb = mean(`Ambient Temp`, na.rm = TRUE),
+          mean_abs_hum_amb = mean(`Ambient Humidity`, na.rm = TRUE),
+          mean_co2_amb = mean(`Ambient CO2`, na.rm = TRUE)) %>%
+        mutate( # Get the delta values 
+          Delta_temp = mean_temp - mean_temp_amb,
+          Delta_abs_hum = mean_abs_hum - mean_abs_hum_amb,
+          Delta_co2 = mean_co2 - mean_co2_amb)
+             
+```
+
+
+Now that the set up is done, we are going to visualize the data and do some analysis
+
+```{r}
+#lets look at the species that we sampled
+library(ggplot2)
+
+  THC_data_final%>%
+  group_by(Species) %>%
+  tally()
+
+# Now visualize the differences in THC across species
+  # I am going to use a boxplot to look at the values 
+  
+###Temp
+   
+   #Plot  
+    ggplot(THC_data_final, aes(fill = Species, x = `Collection number`, y = Delta_temp)) +
+      geom_boxplot() +
+      geom_jitter(color="black", size=0.4, alpha=0.9) +
+      ggtitle("Delta Temperature") 
+  
+  
+  
+##Abs Hum
+      
+  #Plot    
+    ggplot(THC_data_final, aes(fill = Species, x = `Collection number`, y = Delta_abs_hum)) +
+      geom_boxplot() +
+      geom_jitter(color="black", size=0.4, alpha=0.9) +
+      ggtitle("Delta Absolute Humidity") 
+   
+    
+##CO2
+      
+  #Plot    
+    ggplot(THC_data_final, aes(fill = Species, x = `Collection number`, y = Delta_co2)) +
+      geom_boxplot() +
+      geom_jitter(color="black", size=0.4, alpha=0.9) +
+      ggtitle("Delta CO2") 
+   
+   
+```
+
+
+I want to look at CO2 some more for just two of the species 
+
+```{r}
+#filtering out the two species you want to compare more
+# I want to look at the CO2 differences more because those looked to be the most different between spp.
+
+  my_data_selection <- THC_data_final %>% filter(Species == "Illicium verum" | Species == "Camellia japonica ‘Monah Johnstone’" )
+
+ #Plot the two spp.
+  ggplot(my_data_selection, aes(x = Species, y = Delta_co2, fill = Species)) +
+    geom_boxplot() +
+    geom_jitter(color="black", size=0.4, alpha=0.9) 
+
+ #Do a t-test between the groups
+  test <- t.test(Delta_co2 ~ Species,
+    data = my_data_selection,
+    var.equal = FALSE,
+    alternative = "greater")
+  
+ #Look at the results of the t-test 
+  test
 
 ```
+
 
